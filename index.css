@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("https://www.traveldine.com/wp-content/uploads/2021/10/bitcoin-featured-new-size.jpg");
+    /* background-position: center; */
+    background-size: cover;
+    color: azure;
+}
+p{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc{
+    border-radius: 10px;
+    width: 40rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+h2{
+    font-size: 4rem;
+    background-color: #ffffff10;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #777;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input, select{
+    margin: 2px;
+    font-size: 1.5rem;
+    padding: 7px;
+    width: 20rem;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    color: #fff;
+}
+button{
+    padding: 10px;
+    margin: 30 30pxpx;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900px;
+    font-size: 1.5rem;
+    background-color: white;
+    transition: 0.5s;
+}
+button:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: gold;
+}
+.result{
+    font-weight: bolder;
+    color: black;
+    margin: 10px 40px;
+    text-align: center;
+    padding: 30px;
+}
+.btn{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.error{
+    font-weight: 700;
+    color: black;
+}
